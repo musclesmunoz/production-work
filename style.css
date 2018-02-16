@@ -1,6 +1,6 @@
 h1 {
   font-size: 60px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   padding-top: 100px;
   margin-left: 100px;
   color:#333484;
@@ -45,6 +45,17 @@ h4 {
   margin-top: 200px;
   margin-bottom: 100px;
 }
+
+h5 {
+  font-size: 15px;
+  margin-left: 105px;
+  margin-top:-20px;
+  padding-bottom: 10px;
+  max-width: 500px;
+  color:#333484;
+  text-align: left;
+  font-family: 'Open Sans Condensed', sans-serif;
+  }
 
 img {
   margin-left: 100px;
@@ -101,10 +112,4 @@ body {
   display: block;
   padding-top: 25px;
   padding-bottom: 20px;
-}
-
-.smaller {
-  font-size: 17px;
-  font-weight: lighter;
-  padding-left: 1em;
 }
