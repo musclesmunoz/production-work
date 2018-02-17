@@ -18,7 +18,7 @@ h2 {
   text-align: left;
   font-family: 'Open Sans Condensed', sans-serif;
   max-width: auto;
-  border-top: .1em white solid;
+  border-top: .1em #333484 solid;
   padding-right: .9em;
   margin-top: 100px;
 }
@@ -65,9 +65,9 @@ img {
   padding-top: 50px;
 }
 
-body {
-  background: linear-gradient(#c6dcff, #f6ffbf, #f6ffbf, #c6dcff);
-  height: auto;
+.border img {
+  border: .05em #333484 solid;
+  padding: 0em;
 }
 
 .row {
@@ -80,12 +80,12 @@ body {
 .column {
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
-  padding-bottom: 10px;
+  padding: 0 15px;
+  padding-bottom: 15px;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 15px;
   vertical-align: middle;
   width: 100%;
 }
@@ -104,6 +104,17 @@ body {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+.full-column.row-1 {
+  background:linear-gradient(#c6dcff, #f6ffbf, white);
+  height: 300px;
+}
+
+.full-column.row-2 {
+  background:linear-gradient(white, #f6ffbf, #c6dcff);
+  height: 300px;
+  margin-top: 50px;
 }
 
 .resize {
